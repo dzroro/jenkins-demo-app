@@ -1,3 +1,1 @@
-build:
-        @echo "Building project..."
-
+include Makefile.common
