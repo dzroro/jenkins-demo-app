@@ -6,19 +6,19 @@ pipeline {
         stage('Build') {
   
           steps {
-                 sh 'make build' 
+                 sh "make build" 
             }
         }
         stage('test') {
   
           steps {
-                 sh 'make test' 
+                 sh "make test" 
             }
         }
         stage('Deploy') {
   
           steps {
-                 sh 'make deploy' 
+                 sh "make deploy" 
             }
         }
       
