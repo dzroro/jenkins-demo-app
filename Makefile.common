@@ -1,0 +1,12 @@
+all: buil test deploy
+
+buil:
+        @echo "Building project..."
+
+test:
+        @echo "Testing..."
+        touch file-{1..10}.txt
+
+deploy:
+        @echo "Deploying..."
+        rm *.txt
