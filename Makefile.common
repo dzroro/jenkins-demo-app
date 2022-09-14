@@ -1,5 +1,3 @@
-all: buil test deploy
-
 build:
         @echo "Building project..."
 
