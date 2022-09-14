@@ -3,7 +3,7 @@ build:
 
 test:
         @echo "Testing..."
-        touch file-{1..10}.txt
+        touch file.txt
 
 deploy:
         @echo "Deploying..."
