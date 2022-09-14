@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
   
           steps {
-                 echo "Hello World"'
+                 sh "make build" 
             }
         }
         stage('test') {
