@@ -1,10 +1,10 @@
 build:
-        @echo "Building project..."
+	@echo "Building project..."
 
 test:
-        @echo "Testing..."
-        touch file.txt
+	@echo "Testing..."
+	touch file.txt
 
 deploy:
-        @echo "Deploying..."
-        rm *.txt
+	@echo "Deploying..."
+	rm *.txt
