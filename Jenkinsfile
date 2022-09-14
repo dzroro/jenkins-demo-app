@@ -6,13 +6,13 @@ pipeline {
         stage('Build') {
   
           steps {
-                 sh 'echo "Hello World"'
+                 echo "Hello World"'
             }
         }
         stage('test') {
   
           steps {
-                 sh "make build" 
+                 sh "make test" 
             }
         }
         stage('Deploy') {
